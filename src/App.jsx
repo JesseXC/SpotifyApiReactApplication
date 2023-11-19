@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css';
 import { BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
 import Navbar from './components/navbar';
-import {About, Contact, Home} from "./components";
+import {About, Contact, Home, Testcomponent} from "./components";
 import { useEffect, useState } from 'react';
 
 export const App = () => {
@@ -50,7 +50,7 @@ export const App = () => {
           onClientInfoClick={handleClientInfoClick}
         />} 
         />
-        <Route exact path ='/about' element={<About />} />
+        <Route exact path ='/Testcomponent' element={<Testcomponent />} />
         <Route exact path ='/contact' element={<Contact />} />
         </Routes>
     </BrowserRouter>

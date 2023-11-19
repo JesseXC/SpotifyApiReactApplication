@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavLink to="/" className="p-5 border border-green ">
             Home
         </NavLink>
-        <NavLink to="/about" className="p-5 border border-green ">
+        <NavLink to="/Testcomponent" className="p-5 border border-green ">
             About
         </NavLink>
         <NavLink to="/contact" className="p-5 border border-green ">
