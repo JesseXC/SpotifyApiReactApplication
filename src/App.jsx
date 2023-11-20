@@ -12,6 +12,8 @@ export const App = () => {
   const [isClientOpen, setClientOpen] = useState(false);
   const [token, setToken] = useState("");
   const [loggedIn, setLoggedIn] = useState(false);
+  
+
   useEffect(() => {
     const hash = window.location.hash
     let token = window.localStorage.getItem("token")
@@ -25,7 +27,7 @@ export const App = () => {
     }
     setToken(token)
   },[])
-  
+
   console.log(isClientOpen)
   const logout = () => {
     setToken("")
