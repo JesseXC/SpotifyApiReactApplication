@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
 import Navbar from './components/navbar';
 import {About, Contact, Home, LogInSpotify, ClientLogin} from "./components";
 import { useEffect, useState } from 'react';
-import axios from 'axios';
 
 export const App = () => {
   const [clientIdInput, setClientIdInput] = useState("");
@@ -14,8 +13,6 @@ export const App = () => {
   const [token, setToken] = useState("");
   const [loggedIn, setLoggedIn] = useState(false);
   
-
-  setArtists(data.artists.items)
 
   useEffect(() => {
     const hash = window.location.hash
