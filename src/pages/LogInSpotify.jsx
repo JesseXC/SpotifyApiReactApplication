@@ -1,9 +1,9 @@
 import React from 'react'
 
-const LogInSpotify = ({CLIENT_ID}) => {
+const LogInSpotify = () => {
 
   return (
-    <a href="http://localhost:8888">Log In to Spotify</a>
+    <a href="https://spotifytimelinebackend-production.up.railway.app">Log In to Spotify</a>
   )
 }
 
