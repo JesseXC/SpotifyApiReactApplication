@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/three": "^9.7.3",
+    "@react-three/drei": "^9.96.1",
+    "@react-three/fiber": "^8.15.14",
+    "@use-gesture/react": "^10.3.0",
     "axios": "^1.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "spotify-web-api-js": "^1.5.2",
+    "three": "^0.160.0",
     "yarn": "^1.22.21"
   },
   "devDependencies": {

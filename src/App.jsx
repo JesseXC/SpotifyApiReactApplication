@@ -39,10 +39,9 @@ function App() {
   return (
     <main>
     <BrowserRouter>
-    <Navbar/>
         <Routes>
-        <Route exact path="/" element={loggedIn ? <Dashboard spotifyToken={spotifyToken} /> : <LogInSpotify />} />
-        <Route exact path ='/contact' element={<Contact />} />
+        <Route exact path="/" element={loggedIn ? <Dashboard spotifyToken={spotifyToken} /> :  <> <Navbar/> <LogInSpotify /> </>} />
+        <Route exact path ='/contact' element={ <> <Navbar/> <Contact /> </>} />
         </Routes>
     </BrowserRouter>
     </main>
