@@ -16,6 +16,5 @@
 - **Spotify Web API**: Integrates with Spotify's API to fetch user-specific data like top songs and artists.
 
 ## Getting Started
-To use this application, clone the repository and follow the setup instructions in the documentation.
 
 Backend Repository: https://github.com/JesseXC/SpotifyTimelineBackend
